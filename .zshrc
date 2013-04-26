@@ -17,7 +17,7 @@ autoload -Uz vcs_info
 autoload -Uz compinit
 compinit
 
-#autoload zkbd
+autoload zargs
 
 autoload -U tetris
 zle -N tetris
@@ -193,10 +193,8 @@ abbreviations=(
 
 source /etc/profile.d/autojump.zsh
 
-
 export EDITOR=vim
 
-#export ORACLE_MW='/produits/oracle_mw'
 #export JAVA_HOME='/usr/lib/jvm/java-7-openjdk-amd64'
 export JAVA_HOME='/usr/lib/jvm/java-6-openjdk-amd64'
 export ANT_HOME='/produits/apache-ant-1.8.2'
@@ -227,7 +225,6 @@ export PATH="$PATH:$GOPATH/bin:$GOROOT/bin"
 #export _JAVA_AWT_WM_NONREPARENTING=1
 wmname LG3D
 #export AWT_TOOLKIT='MToolkit'
-export DOMAIN_HOME=/home/michel/.jdeveloper/system11.1.2.2.39.61.83.1/DefaultDomain/servers/DefaultServer
 
 export M2_HOME="/opt/apache-maven-3.0.3"
 
